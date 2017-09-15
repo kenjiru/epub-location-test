@@ -1,0 +1,11 @@
+{
+  "name": "epub-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p build && zip -r -X 'build/sample.epub' ebook/"
+  },
+  "author": "",
+  "license": "ISC"
+}
